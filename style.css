@@ -51,9 +51,12 @@ img{
 }
 .contactinfo p{
     line-height: 30px;
-    
 }
 .contactinfo p span{
     font-weight:  600;
     font-size: 20px;
+}
+.align{
+
+    width: 4.97px;
 }
