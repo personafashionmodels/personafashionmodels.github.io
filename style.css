@@ -1,0 +1,46 @@
+*{
+    font-family: Microsoft JhengHei;
+}
+.maintenance{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.maintenance p {
+    margin: 10px;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.contact{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+}
+.hide-in-phone{
+    display: none;
+}
+@media only screen and (min-width:480px) {
+    .hide-in-phone{
+        display: block;
+    }
+}
+.contactinfo{
+    margin: 30px;
+}
+.contactinfo p{
+    line-height: 30px;
+    
+}
+.contactinfo p span{
+    font-weight:  600;
+    font-size: 20px;
+}
